@@ -1,4 +1,5 @@
 n, m = map(int, input().split())
+result = 1
 # Write your code here!
 def maxDiv(n,m):
     result = 1
