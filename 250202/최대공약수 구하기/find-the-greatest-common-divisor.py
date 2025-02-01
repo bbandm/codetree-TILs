@@ -4,7 +4,7 @@ result = 1
 def maxDiv(n,m):
     if min(n,m) == 1:
         result = 1
-    for i in range(1, min(n,m), 1):
+    for i in range(1, min(n,m)+1, 1):
         if n % i == 0 and m % i == 0:
             result = i
     print(result)
